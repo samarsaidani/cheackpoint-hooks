@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+    
+}
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+   
+    
+ 
+
+   
+}
+.inputText{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.btnAdd{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.btnsearch{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: transparent;
+   
+    backdrop-filter: blur(15px);
+   
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.Btn-Add{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background:white;
+   
+
+}
+.form{
+
+    display: flex;
+    justify-content: center;
+    margin: 30px 500px 30px 500px;
+    background-color: #474a51;
+   border-radius: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0.2rem 0.6rem;
+}
+
+
+
+.card{
+
+    border-radius: 30px;
+    width : 280px;
+    
+    background-image: linear-gradient(
+        35deg,
+        #474a51 1%,
+        #1f2127 70%,
+        #474a51 100%
+      );
+    
+}
+
+
+.model{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+
+.button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
