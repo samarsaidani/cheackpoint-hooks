@@ -1,6 +1,10 @@
 import React from "react";
 import ReactStars from "react-stars";
+
+import { useNavigate } from "react-router-dom";
 const MovieCard =(props)=>{
+    const navigate = useNavigate();
+   
     return(
         // houni lCard
         <div className="card">
@@ -27,7 +31,7 @@ const MovieCard =(props)=>{
                
                 <div className="btn-play">
       
-      <button className="button">Play</button>
+      <button className="button" onClick={()=>navigate(`/details/${props.filmKids.id}`)} >Play</button>
       </div>
             </div>
 

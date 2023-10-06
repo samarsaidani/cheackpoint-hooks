@@ -1,22 +1,24 @@
 *{
     padding: 0%;
-    margin: 0%;
-   
-    
+    margin: 0%; 
+     
 }
 .header{
-    height: 100%;
-    width: 100%;
+    text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
    
 
 
 }
+
+
 
 .search{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
    
     
  
@@ -45,10 +47,7 @@
    
 
 }
-.main{
-    display: flex;
-    justify-content: space-between;
-}
+
 .Btn-Add{
     width: 150px;
     height: 30px;
